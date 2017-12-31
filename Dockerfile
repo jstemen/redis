@@ -1,4 +1,4 @@
-FROM webhippie/alpine:latest
+FROM jstemen/arm32v7-alpine:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 VOLUME ["/var/lib/redis"]
