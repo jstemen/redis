@@ -3,6 +3,7 @@ MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
 VOLUME ["/var/lib/redis"]
 
+ADD VERSION . 
 EXPOSE 6379
 
 WORKDIR /root
